@@ -1,0 +1,108 @@
+/* Write your CSS code here */
+.currencies-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  color: #00e7ff;
+}
+
+.currencies-list-image {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.currency-items-container {
+  border: solid 3px #00e7ff;
+  width: 100%;
+}
+
+.header {
+  background-color: #092e33;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 15px;
+}
+
+.values-container {
+  display: flex;
+  align-items: center;
+}
+
+.coin-type-heading {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  width: 90px;
+  margin: 0px 10px;
+}
+
+.usd-value-heading {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 10px;
+  width: 90px;
+}
+
+.euro-value-heading {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 10px;
+  width: 90px;
+}
+
+.currency-items-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .currencies-list-container {
+    width: 90%;
+  }
+
+  .heading {
+    font-size: 42px;
+  }
+
+  .currencies-list-image {
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  .header {
+    padding: 5px 30px;
+  }
+
+  .coin-type-heading {
+    font-size: 18px;
+    width: 120px;
+    margin-left: 25px;
+  }
+
+  .usd-value-heading {
+    font-size: 18px;
+    margin-left: 20px;
+    width: 120px;
+  }
+
+  .euro-value-heading {
+    font-size: 18px;
+    margin-left: 20px;
+    width: 120px;
+  }
+}
